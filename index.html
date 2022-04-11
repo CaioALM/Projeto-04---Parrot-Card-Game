@@ -4,46 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Parrot Card Game</title>
   </head>
   <body>
-    <div class="fundo"> 
-        <div class="top"><h1> PARROT CARD GAME </h1></div>
-         <div class="cards">
-            <div class="card">
-                <div class="front-face face">
-                    <img src="images/front.png" alt="front.png">
-                </div>
-                <div class="back-face face">
-                    <img src="images/bobrossparrot.gif" alt="">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="front-face face">
-                    <img src="images/front.png" alt="front.png">
-                </div>
-                <div class="back-face face">
-                    <img src="images/bobrossparrot.gif" alt="">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="front-face face">
-                    <img src="images/front.png" alt="front.png">
-                </div>
-                <div class="back-face face">
-                    <img src="images/bobrossparrot.gif" alt="">
-                </div>
-            </div>
-            
-
-
-
+    <header>
+        <span class="top">
+          PARROT CARD GAME
+        </span>
+        <span class="top-mobile"> PARROT CARD<br />GAME </span>
+      </header>
+  
+      <aside class="timer">
+        <div class="counter">
+          Timer:
         </div>
-    </div>
-    <script src="game.js"></script>
+        <div class="seconds">
+          0
+        </div>
+      </aside>
+  
+      <main>
+        <section class="mesa"></section>
+      </main>
+  
+      <script src="/game.js"></script>
   </body>
 </html>
